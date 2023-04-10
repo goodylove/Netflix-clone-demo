@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign-page</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div style="width: 100%; margin-top: 20px">
+        <img
+          src="/images/netflix-logo-history-32.png"
+          alt="neflix"
+          width="170px"
+        />
+      </div>
+      <div class="form-container">
+        <div action="form" class="form-control">
+          <h2 class="h-sign">Sign In</h2>
+          <div class="input-holder">
+            <input
+              type="text"
+              placeholder=" "
+              id="email"
+              name="email"
+              class="input-class"
+            />
+            <label for="eamil">Email or phone number</label>
+          </div>
+          <span class="error1">please enter a valid email address</span>
+          <div class="password-holder">
+            <input
+              type="text"
+              placeholder=" "
+              id="password"
+              name="password"
+              class="password-class"
+            />
+            <label for="password">password</label>
+          </div>
+
+          <span class="error2"
+            >please password most be up to 20 characters</span
+          >
+          <button type="submit" id="form">Sign In</button>
+          <div class="remember">
+            <span class="check-input">
+              <input type="checkbox" />
+              Remember me
+            </span>
+            <span> <a href="#">Need help?</a></span>
+          </div>
+        </div>
+
+        <div class="wrapper">
+          <h5>New to Netflix? <a href="/index.html"> Sign up now</a></h5>
+          <p>
+            This page is protected by Google reCAPTCHA to ensure you're not a
+            bot. <a href="#"> Learn more</a>.
+          </p>
+        </div>
+      </div>
+      <hr class="line" />
+      <footer class="footer">
+        <div class="footer-wrapper">
+          <h3>Questions? Contact us</h3>
+          <div>
+            <ul>
+              <li><a href="#"> FAQ</a></li>
+              <li><a href="#"> Cookie preference</a></li>
+            </ul>
+            <ul>
+              <li><a href="#"> Help center</a></li>
+              <li><a href="#"> cooperate information</a></li>
+            </ul>
+            <ul>
+              <li><a href="#"> Terms Of Us</a></li>
+            </ul>
+            <ul>
+              <li><a href="#"> Pravicy</a></li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>
